@@ -2,7 +2,7 @@ class Myclass:
     def __init__():
         pass
 
-class AnotherMyClass:
-    a = 5
+
+class AnyOtherMyClass:
     def __init__():
         pass
