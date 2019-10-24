@@ -18,6 +18,9 @@ TreeNode::TreeNode (int node_val) {
   cout << "node created with val=" << val << "\n";
 }
 
+
+
+
 TreeNode::TreeNode (int node_val, TreeNode *a) {
   val = node_val;
   prev = a;
