@@ -24,6 +24,8 @@ TreeNode::TreeNode (int node_val, TreeNode *a) {
   cout << "node created with val=" << val << "\n";
 }
 
+
+
 void TreeNode::add (int b) {
   if (b < val) {
     if (left == NULL) {
