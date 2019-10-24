@@ -26,7 +26,7 @@ TreeNode::TreeNode (int node_val, TreeNode *a) {
 
 
 
-void TreeNode::add (int b) {
+void TreeNode::addb (int b) {
   if (b < val) {
     if (left == NULL) {
       left = new TreeNode(b, this);      
