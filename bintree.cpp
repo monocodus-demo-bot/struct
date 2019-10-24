@@ -10,7 +10,7 @@ class TreeNode {
   void add (int b);
   void del_subtree ();
   TreeNode* search (int b);
-  int getval () {return val;};
+  int getdval () {return val;};
 };
 
 TreeNode::TreeNode (int node_val) {
