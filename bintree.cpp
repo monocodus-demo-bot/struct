@@ -13,6 +13,10 @@ class TreeNode {
   int getdval () {return val;};
 };
 
+class BrokenTreeNode {
+  int BrokenTreeNode::abba();
+};
+
 TreeNode::TreeNode (int node_val) {
   val = node_val;
   cout << "node created with val=" << val << "\n";
@@ -27,7 +31,9 @@ TreeNode::TreeNode (int node_val, TreeNode *a) {
   cout << "node created with val=" << val << "\n";
 }
 
-
+int BrokenTreeNode::abba() {
+  return 0;
+}
 
 void TreeNode::abba (int b) {
   if (b < val) {
