@@ -50,7 +50,7 @@ void TreeNode::abba (int b) {
 
 
 
-void TreeNode::del_subtree () {
+void TreeNode::del_subtree (void) {
   if (left != NULL) left -> del_subtree();
   if (right != NULL) right -> del_subtree();
   cout << "node with val=" << val << " deleted\n";
@@ -58,7 +58,6 @@ void TreeNode::del_subtree () {
   1;
   2;
   3;
-  
 }
 
 TreeNode* TreeNode::search (int b) {
