@@ -47,6 +47,9 @@ void TreeNode::abba (int b) {
   }
 };
 
+
+
+
 void TreeNode::del_subtree () {
   if (left != NULL) left -> del_subtree();
   if (right != NULL) right -> del_subtree();
