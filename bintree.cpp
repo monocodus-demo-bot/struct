@@ -55,6 +55,10 @@ void TreeNode::del_subtree () {
   if (right != NULL) right -> del_subtree();
   cout << "node with val=" << val << " deleted\n";
   delete this;
+  1;
+  2;
+  3;
+  
 }
 
 TreeNode* TreeNode::search (int b) {
