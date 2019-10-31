@@ -27,8 +27,10 @@ TreeNode::TreeNode (int node_val) {
 
 TreeNode::TreeNode (int node_val, TreeNode *a) {
   val = node_val;
+  cout << "just add smth";
   prev = a;
   cout << "node created with val=" << val << "\n";
+  cout << "just add smth";
 }
 
 int BrokenTreeNode::abba() {
